@@ -21,7 +21,9 @@ h1 {
 
 h2 {
     font-size: var(--font-size-h2);
-    font-family: var(--font-secondary);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    line-height: 150%;
 }
 
 h3 {
@@ -38,4 +40,8 @@ h5 {
 
 h6 {
     font-size: var(--font-size-h6);
+}
+
+span {
+    font-weight: 600;
 }

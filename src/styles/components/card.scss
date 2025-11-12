@@ -1,0 +1,27 @@
+.cards {
+    @media (width <= $breakpoint-md) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: var(--spacing-md);
+    }
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-md);
+    align-items: center;
+
+    @media (width <= $breakpoint-md) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.card__media {
+    aspect-ratio: 1680/945;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
