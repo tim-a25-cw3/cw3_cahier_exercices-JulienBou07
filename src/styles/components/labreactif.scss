@@ -1,0 +1,9 @@
+.reactif{
+    background-color: var(--color-primary);
+
+    &:nth-child(even) {
+        .card__content{
+            order: unset;
+        }
+    }
+}

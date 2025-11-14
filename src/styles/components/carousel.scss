@@ -1,0 +1,19 @@
+
+.swiper-slide {
+    background-color: var(--color-primary);
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.swiper-pagination {
+        // retire le position absolute de d’élément
+        position: static;
+        --swiper-pagination-bullet-width: 10px;
+        --swiper-pagination-bullet-height: 10px;
+        --swiper-pagination-color: var(--color-primary);
+        --swiper-pagination-bullet-inactive-color: var(--color-primary);
+        --swiper-pagination-bullet-border-radius: 0;
+}
