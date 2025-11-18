@@ -1,0 +1,44 @@
+.footer{
+    padding: 40px 0;
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    h2{
+        margin: 0 0 4px 0;
+        font-family: var('Work Sans', sans-serif);
+        font-size: typo(56px);
+        color: #8C8C8C;
+    }
+
+    span{
+       color: var(--color-white);
+    }
+
+    p{
+        margin: 0;
+        font-family: var('Work Sans', sans-serif);
+        font-size: typo(18px);
+    }
+
+    .icon{
+        font-size: typo(32px);
+        color: #8C8C8C;
+
+        &:hover{
+            color: var(--color-white);
+            scale: 1.1;
+        }
+    }
+
+    .links{
+        display: flex;
+        gap: 56px;
+        align-items: center;
+    }
+}

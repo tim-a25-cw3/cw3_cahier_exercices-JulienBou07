@@ -2,18 +2,22 @@
 .swiper-slide {
     background-color: var(--color-primary);
     min-height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
+
 }
 
 .swiper-pagination {
         // retire le position absolute de d’élément
         position: static;
-        --swiper-pagination-bullet-width: 10px;
-        --swiper-pagination-bullet-height: 10px;
-        --swiper-pagination-color: var(--color-primary);
-        --swiper-pagination-bullet-inactive-color: var(--color-primary);
+        --swiper-pagination-bullet-width: 20px;
+        --swiper-pagination-bullet-height: 20px;
+        --swiper-pagination-color: var(--color-white);
         --swiper-pagination-bullet-border-radius: 0;
+        --swiper-pagination-bullet-horizontal-gap: 10px;
+        margin-top: 50px;        
+} 
+
+.swiper-pagination-bullet {
+      transform: rotate(45deg);
 }
+
+ 
